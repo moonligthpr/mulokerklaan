@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<style>
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+} 
+</style>
 </head>
 <body>
 
-<h1>mulokerklaan examen markt events</h1>
+<h2>The id Attribute</h2>
+<p>Use CSS to style an element with the id "myHeader":</p>
 
+<h1 id="myHeader">My Header</h1>
 
 </body>
 </html>
+
