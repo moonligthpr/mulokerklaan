@@ -1,22 +1,118 @@
-<!DOCTYPE html>
-<html>
+!DOCTYPE html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-#myHeader {
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
   background-color: black;
-  color: white;
-  padding: 6px;
+  padding: 1px;
   text-align: center;
-} 
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 500px;
+  background: #bbb;
+  padding: 20px;
+  
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px;
+  text-align: center;
+  font-size: 20px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
 </style>
 </head>
 <body>
 
 
-<h1 id="myHeader">Mulo kerklaan examen markt events</h1>
+<header>
+  <h2>mulokerklaan examen markt events</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">new business idea</a></li>
+      <li><a href="#">nail studio</a></li>
+      <li><a href="#">fasion accesoiries store</a></li>
+      <li><a href="#">wood works</a></li>
+      <li><a href="#">foods and drinks</a></li>
+      <li><a href="#">plant</a></li>
+      <li><a href="#">computer repairs</a></li>
+      <li><a href="#">decorations</a></li>
+      <li><a href="#">making art from schrap material</a></li>
+      <li><a href="#">promotions</a></li>
+      <li><a href="#">alternitive energie</a></li>
+      <li><a href="#">engine repairs</a></li>
+      <li><a href="#">water drainige system</a></li>
+      <li><a href="#">orginizing sport day</a></li>
+      <li><a href="#">secondhand store</a></li>
+      <li><a href="#">history</a></li>
+      <li><a href="#">orginizing examen markt</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>about exam markt</h1>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>moonlight productions
+  </p>
+</footer>
 
 </body>
 </html>
+
+
+
+
 
 
 
