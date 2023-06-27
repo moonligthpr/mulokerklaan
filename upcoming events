@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>upcoming event</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00008B;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #00008B;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .event {
+      margin-bottom: 20px;
+    }
+    .event h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .event p {
+      margin-bottom: 5px;
+    }
+    .event .date {
+      font-style: italic;
+      color: #777;
+    }
+    .event .location {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>upcoming event
+  </header>
+  <main>
+    <h2>Upcoming Events</h2>
+    <div class="event">
+      <h3>sportdag</h3>
+      <p class="date">Date: Juni 30, 2023</p>
+      <p class="location">Location: suriname,paramaribo</p>
+      
+    </div>
+    <div class="event">
+      <h3>exame mark</h3>
+      <p class="date">Date: 7 luli, 2023</p>
+      <p class="location">Location: suriname,paramaribo</p>
+
+   </p>
+    </div>
+  </main>
+  <footer>
+    &copy; 2023 My Events Website. All rights reserved.
+  </footer>
+</body>
+</html>
+
