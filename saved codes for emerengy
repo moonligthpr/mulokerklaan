@@ -481,3 +481,95 @@ xxx
 
 
 xxxxxx
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sport Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #0000FF;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    .event {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .event-title {
+      font-weight: bold;
+      margin-top: 0;
+    }
+    
+    .event-date {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .event-description {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sport Event</h1>
+  </header>
+  <h1>mulo kerklaan </h1>
+  <main>
+    <div class="event">
+      <h2 class="event-title">zak springen</h2>
+      <h2><a href="zakspringen.html" title="ff ">see more<a>
+      <p class="event-date">June 30, 2023</p>
+      <p class="event-description">join us voor sportdag zak springen see more voor meer info</p>
+    </div>
+    
+    <div class="event">
+      <h2 class="event-title">bliken werpen</h2>
+       <h2><a href="index.html" title="see more ">see more<a>
+      <p class="event-date">July 5, 2023</p>
+      <p class="event-description">Cheer for your favorite basketball teams as they compete in a thrilling game at the Arena. Get your tickets now!</p>
+    </div>
+    
+    <div class="event">
+      <h2 class="event-title">Tennis Tournament</h2>
+      <h2><a href="index.html" title="ff ">see more<a>
+      <p class="event-date">July 10-15, 2023</p>
+      <p class="event-description">Witness the world's top tennis players battle it out in an intense tournament at the Tennis Club. Be part of the excitement!</p>
+    </div>
+  </main>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<a href="https://www.pngall.com/wp-content/uploads/2/Shrek-PNG-HD-Image.png"><img src="https://www.pngall.com/wp-content/uploads/2/Shrek-PNG-HD-Image.png"></a>
+</body>
+</html>
+
