@@ -1,113 +1,82 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 header {
-  background-color: black;
+background-color: blue;
   padding: 1px;
   text-align: center;
   font-size: 20px;
   color: white;
-}
 
-nav {
+}
+.column {
   float: left;
-  width: 30%;
-  height: 500px;
-  background: #bbb;
-  padding: 20px;
-  
+  width: 33.33%;
+  padding: 10px;
+  height: 125px;
+  font-size: 10px;
+  text-align: center;
 }
-
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 article {
   float: left;
   padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 500px;
-  text-align: center;
-  font-size: 20px;
+  width: 100%;
+  background-color: #fff
+;
+  height: 125px; 
+ 
 }
-
-section::after {
+footer {
+  background-color: blue;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+.row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-/* Style the footer */
-footer {
-  background-color: black;
-  padding: 1px;
-  text-align: center;
-  color: white;
-}
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
 </style>
 </head>
 <body>
-
-
 <header>
-  <h2>mulokerklaan examen markt events</h2>
+<h2>mulo kerklaan events</h2>
 </header>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="#">new business idea</a></li>
-      <li><a href="#">nail studio</a></li>
-      <li><a href="#">fasion accesoiries store</a></li>
-      <li><a href="#">wood works</a></li>
-      <li><a href="#">foods and drinks</a></li>
-      <li><a href="#">plant</a></li>
-      <li><a href="#">computer repairs</a></li>
-      <li><a href="#">decorations</a></li>
-      <li><a href="#">making art from schrap material</a></li>
-      <li><a href="#">promotions</a></li>
-      <li><a href="#">alternitive energie</a></li>
-      <li><a href="#">engine repairs</a></li>
-      <li><a href="#">water drainige system</a></li>
-      <li><a href="#">orginizing sport day</a></li>
-      <li><a href="#">secondhand store</a></li>
-      <li><a href="#">history</a></li>
-      <li><a href="#">orginizing examen markt</a></li>
-      <li><a href="#"></a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>about exam markt</h1>
-    <p>the school is hosting a market for the exams and evrybody is invited.evrybody can pick from 18 diffrent projects wich you can see on the left.evrybody will presentate their projects and tell you about it.for more info chek hompage for upcoming events  
-<h1>photos,vidio,s and posters<h1>
-  
-  
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h1> 
+  <h1><a href="upcomingevents.html" title="ff ">upcoming events<a>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h1> 
+  <h1><a href="sportdag.html" title="ff ">sport events<a>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h1> 
+  <h1><a href="examenmark.html" title="ff ">exame market events<a>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
+    
+<article> 
+<h1>about us</h1>
 </article>
-</section>  
 
+<footer>
+<p>moonlight productiens</p>
+</footer>
 
-
-
-
-
-
+</body>
+</html>
