@@ -291,6 +291,113 @@ xxx
 !DOCTYPE html>
 <html lang="en">
 <head>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sport Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #0000FF;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    .event {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .event-title {
+      font-weight: bold;
+      margin-top: 0;
+     
+    }
+    
+    
+    .event-date {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .event-description {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sport Event</h1>
+  </header>
+  <h1>mulo kerklaan </h1>
+
+  <main>
+    <div class="event">
+      <h2 class="event-title">zak springen</h2>
+      <h2><a href="zakspringen.html" title="ff ">see more<a>
+      <p class="event-date">June 30, 2023</p>
+      <p class="event-description">join us voor sportdag zak springen see more voor meer info</p>
+    </div>
+    
+    <div class="event">
+      <h2 class="event-title">bliken werpen</h2>
+       <h2><a href="blikenwerpen.html" title="see more ">see more<a>
+      <p class="event-date">July 5, 2023</p>
+      <p class="event-description">
+ <div
+      
+      <h2 class="event-title">volley ball</h2>
+      <h2><a href="volleyball.html" title="ff ">see more<a>
+      <p class="event-date">July 10-15, 2023</p>
+      <p class="event-description">
+        </div 
+
+       <div class="event">   
+      <h2 class="event-title">PENALTY met een doel </h2>
+      <h2><a href="zakspringen.html" title="ff ">see more<a></h2>
+      <p class="event-date">June 30, 2023</p>
+      <p class="event-description"> come and check it out your zelf</p>
+   </div>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+   <head>
+  <center>
+      <title>HTML Video embed</title>
+   </head>
+   <body>
+      <br />
+      <iframe iframe width="599" height="355" src="https://www.youtube.com/embed/F3OoNoz9o8E" frameborder="3" allowfullscreen></iframe>
+      </iframe>
+   </body>
+</html>
+<a href="https://ibb.co/wSYsC9f"><img src="image destination"></a>        
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
@@ -573,3 +680,109 @@ xxxxxx
 </body>
 </html>
 
+
+xxxxxxxx
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sport Events</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #0000FF;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    .event {
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .event-title {
+      font-weight: bold;
+      margin-top: 0;
+     
+    }
+    
+    
+    .event-date {
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .event-description {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sport Event</h1>
+  </header>
+  <h1>mulo kerklaan </h1>
+
+  <main>
+    <div class="event">
+      <h2 class="event-title">zak springen</h2>
+      <h2><a href="zakspringen.html" title="ff ">see more<a>
+      <p class="event-date">June 30, 2023</p>
+      <p class="event-description">join us voor sportdag zak springen see more voor meer info</p>
+    </div>
+    
+    <div class="event">
+      <h2 class="event-title">bliken werpen</h2>
+       <h2><a href="blikenwerpen.html" title="see more ">see more<a>
+      <p class="event-date">July 5, 2023</p>
+      <p class="event-description">
+ <div
+      
+      <h2 class="event-title">volley ball</h2>
+      <h2><a href="volleyball.html" title="ff ">see more<a>
+      <p class="event-date">July 10-15, 2023</p>
+      <p class="event-description">
+        </div 
+
+       <div class="event">   
+      <h2 class="event-title">PENALTY met een doel </h2>
+      <h2><a href="zakspringen.html" title="ff ">see more<a></h2>
+      <p class="event-date">June 30, 2023</p>
+      <p class="event-description"> come and check it out your zelf</p>
+   </div>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+   <head>
+  <center>
+      <title>HTML Video embed</title>
+   </head>
+   <body>
+      <br />
+      <iframe iframe width="599" height="355" src="https://www.youtube.com/embed/F3OoNoz9o8E" frameborder="3" allowfullscreen></iframe>
+      </iframe>
+   </body>
+</html>
+<a href="https://ibb.co/wSYsC9f"><img src="image destination"></a>        
