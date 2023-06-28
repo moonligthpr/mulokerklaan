@@ -398,4 +398,76 @@ footer {
 
 
 xxxx
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+background-color: blue;
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 125px; 
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #fff
+;
+  height: 125px; 
+ 
+}
+footer {
+  background-color: blue;
+  padding: 1px;
+  text-align: center;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<header>
+<h2>mulo kerklaan events</h2>
+</header>
+
+<div class="row">
+  <div class="column" style="background-color:#bbb;">
+    <h2>upcoming events</h2>
+    <p></p>
+  </div>
+  <div class="column" style="background-color:#aaa;">
+    <h2>sport day</h2>
+    <p></p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>examen markt events</h2>
+    <p></p>
+  </div>
+</div>
+<article> 
+<h1>about us</h1>
+</article>
+
+<footer>
+<p>moonlight productiens</p>
+</footer>
+
+</body>
+</html>
