@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+header {
+background-color: white;
+  padding: 1px;
+  text-align: left;
+  font-size: 20px;
+  color: green;
 
+ 
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #bbb;
+  height: 500px; 
+  text-aling: center;
+ 
+}
+footer {
+  background-color: blue;
+  padding: 1px;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 100%
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {margin:0;}
+}
+
+.icon-bar {
+  width: 60%;
+  background-color: #555;
+  overflow: right;
+  height: 40px;
+}
+
+.icon-bar a {
+  float: right;
+  width: 10%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: green ;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: white;
+}
+img {
+hight: 15px;
+width: 15%;
+padding: 10px;
+background-color: ;
+}
+p.round1 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  hight: 200px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+p.round2 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  hight: 200px;
+  width: 30%;
+  float: right;
+  text-align:center;
+}
+p.round3 {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  hight: 200px;
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+</div>
+
+<h2></h2>
+
+<img src="http://drive.google.com/uc?export=view&id=1gWY3y_mX3q2yvGfFkYP6BFbHaHiPs27P">
+</header>
+
+<p class="round1">
+ <a href="upcomingevents.html" title="ff ">upcoming events<a>
+ <a href="https://ibb.co/wSYsC9f"><img src="https://i.ibb.co/0CQtZgx/palmer-high-presents.png" alt="palmer-high-presents" border="0" /></a>
+    
+
+
+<p class="round2">
+ <a href="sportdag.html" title="ff ">sportday events<a>
+ <a href="https://ibb.co/wSYsC9f"><img src="https://i.ibb.co/0CQtZgx/palmer-high-presents.png" alt="palmer-high-presents" border="0" /></a>
+
+    
+ <p class="round3"> 
+ <a href="examenevents.html" title="ff ">exame market events<a>
+    
+ 
+
+</body>
+</html>
+
+  
+  </body>
+  </html>
+  
+  
+
+    
+    
+    
+<article> 
+<h1>about</h1>
+  <p1>the school is hosting a view events and everybody is welcome to join us.
+  come visit us at paramaribo mulo kerkalaan.
+ for more info click on any of the buttons above 
+  and if you want to know more about our business 
+  <h1>
+    <h1><a href="moonlightpromotiens.html" title="ff ">click here<a>
+  </article>
+  
+<footer>
+<p1>moonlight productiens </p1>
+</footer>
+
+</body>
+</html>
