@@ -1,194 +1,195 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <style>
-     * {box-sizing: border-box;
-       }
-        header {
-         background-color: blue;
-         padding: 1px;
-         text-align: center;
-         font-size: 20px;
-         color: white;
-         margin-top: 0px
-       } 
-       .column1 {
-         float: right;
-         width: 48%;
-         padding: 10px;
-         height: 200px;
-         font-size: 7.5px;
-         text-align: center;
-         border-radius: 5px;
-         border: 2px solid blue;
-         margin-top: 10px;
-         margin-bottom: 10px;
-         background-image: ;
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
 
-       }
-       .column2 {
-         float: left;
-         width: 48%;
-         padding: 10px;
-         height: 200px;
-         font-size: 7.5px;
-         text-align: center;
-         border-radius: 5px;
-         border: 2px solid red;
-         margin-top: 10px; 
-         margin-bottom: 10px;
-         background-image:;
-       }
-        article {
-         float: left;
-         padding: 20px;
-         width: 100%;
-         background-color: #f1f1f1;
-         height: 500px; 
-         text-align: center;
-         border-radius 5px
-         border: 2px solid green;
-       }
-        footer {
-         background-color: blue;
-         padding: 1px;
-         text-align: center;
-         color: white;
-       }
-        .row:after {
-         content: "";
-         display: table;
-         clear: both;
-       }
-       .text1 {
-         color: #f2f2f2;
-         font-size: 15px;
-         padding: 8px 12px;
-         position: absolute;
-         bottom: 8px;
-         width: 100%;
-         text-align: left;
-         margin-bottom: 200px;
-       }
-       .text2 {
-         color: #f2f2f2;
-         font-size: 15px;
-         padding: 8px 12px;
-         position: absolute;
-         bottom: 8px;
-         width: 100%;
-         text-align: left;
-         margin-bottom: 350px;
-       }
-       .numbertext {
-         color: #f2f2f2;
-         font-size: 12px;
-         padding: 8px 12px;
-         position: absolute;
-         top: 0;
-       }
-        .dot {
-         height: 10px;
-         width: 10px;
-         margin: 0 2px;
-         background-color: #bbb;
-         border-radius: 5px;
-         display:  inline-block;
-         transition: background-color 0.6s ease;
-       } 
-        .active {
-          background-color: #717171;
-       }
-        .fade {
-         animation-name: fade;
-         animation-duration: 1.5s;
-       }
-        @keyframes fade {
-         from {opacity: .4} 
-        to {opacity: 1}
-       }
-        @media only screen and (max-width: 300px) {
-        .text {font-size: 11px}
-       }
-   </style>
- </head>
- 
- <body>
-  <header>
-   <h2>mulo kerklaan events</h2>
-  </header>
 
-  <div class="slideshow-container">
- 
-    <div class="mySlides fade">
-     <div class="numbertext">1 / 3</div>
-      <img src="https://www.ict-edu.nl/upload/141/foto's/gtp/Suriname2009/dinsdag%2020-01-09/Sur_20-01-09_kerklaan_01.jpg" style="width:100%">
-     <div class="text"><h1>welcome</h1></div>
-    </div>
-   
-   <div class="mySlides fade">
-     <div class="numbertext">2 / 3</div>
-      <img src="http://drive.google.com/uc?export=view&id=14rZfWJQIv7urQk-ODH7mupohXSP8c9fq" style="width:100%">
-     <div class="text">Caption Two</div>
-   </div>
-   
-   <div class="mySlides fade">
-     <div class="numbertext">3 / 3</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-     <div class="text">Caption Three</div>
-   </div>
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-   </div>
-   
-  <div class="row">
-   <div class="column1" style="background-color:#ddd;">
-    <h1> 
-     <h1><a href="examenevents.html" title="ff ">examen markt events<a>
-    </h1>
-     <p>all upcoming events</p>
-   </div>
-   <div class="column2" style="background-color:#ccc;">
-    <h1> 
-     <h1><a href="sportdag.html" title="ff ">sportday events<a>
-    </h1>
-     <p>all sport day events</p>
-   </div>
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color:; 
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+ <div id="navbar">
+  <a href="#default" id="logo">CompanyLogo</a>
+  <div id="navbar-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
   </div>
-  
-   <article> 
-    <h1>about</h1>
-     <p1>the school is hosting a view events and everybody is welcome to join us.come visit us at paramaribo mulo kerkalaan   for more info click on any of the buttons above  and if you want to know more about our business 
-    <h1>
-     <h1><a href="newindex.html" title="ff ">click here<a>
-    </h1>
-   </article>
-  
-    <footer>
-     <p>moonlight productiens </p>
-    </footer>
+ </div>
+</header>
 
-    <script>
-      let slideIndex = 0;
-      showSlides();
-      
-      function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-    </script>
- </body>
-</html>
+
+
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://www.ict-edu.nl/upload/141/foto's/gtp/Suriname2009/dinsdag%2020-01-09/Sur_20-01-09_kerklaan_01.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://drive.google.com/uc?export=view&id=14rZfWJQIv7urQk-ODH7mupohXSP8c9fq" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 8000);
+}
+</script>
+
+</body>
+</html> 
