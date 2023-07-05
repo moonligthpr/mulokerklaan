@@ -16,7 +16,7 @@
        .mySlides {display: none}
         img {
          vertical-align: middle;
-         max-height: 100em;
+        height: 800px;
       } 
        .slideshow-container {
          max-width: 100%;
@@ -31,16 +31,10 @@
          bottom: 8px;
          width: 100%;
          text-align:right;
-         margin-bottom: 250px;
+         margin-bottom: 300px;
          margin
       }
-       .numbertext {
-         color: #f2f2f2;
-         font-size: 12px;
-         padding: 8px 12px;
-         position: absolute;
-         top: 0;
-      }
+       
        .dot {
          cursor: pointer;
          height: 15px;
@@ -106,7 +100,7 @@
        #check{
          display: none;
       }
-       @media (max-width: 952px){
+       @media (max-width: 100000px){
          label.logo{
          font-size: 30px;
          padding-left: 50px;
@@ -114,7 +108,7 @@
         nav ul li a{
           font-size: 16px;
       }
-       @media  (max-width:  10000px){
+       @media  (max-width:  800px){
          .checkbtn{
          display: block;
          
@@ -151,6 +145,7 @@
   display: table;
   clear: both;
 }
+ 
 .button1 {
   background-color: #2c3e50;
   border: none;
@@ -199,20 +194,20 @@ article {
   height: 500px; 
   text-aling: center;
   border: 3px solid #2c3e50;
-  border-radius: 20px;
+  border-radius:20px;
   transition: 0.6s;
+  margin-top: 40px;
    }
    article:hover {
   background-color: #0000ff;
   color: white;
-  bottom-bottom: 20px;
+  margin-top: 20px;
+  }      
  
-      }
-        ;
    </style>
  </head>
  <body>
- 
+  
  <div>
    <nav>
     <input type="checkbox" id="check"> 
@@ -227,7 +222,7 @@ article {
        </ul>
     </nav>
 </div>
-    
+
     <div class="slideshow-container">
      <div class="mySlides fade">
        <img src="https://www.ict-edu.nl/upload/141/foto's/gtp/Suriname2009/dinsdag%2020-01-09/Sur_20-01-09_kerklaan_01.jpg" style="width:100%">
@@ -235,7 +230,7 @@ article {
    </div>
    </div>
      <div class="mySlides fade">
-       <img src="https://i.ibb.co/871Bs4V/IMG-20230704-WA0001.jpg" alt="IMG-20230704-WA0001" style="width:100%">
+       <img src="https://i.ibb.co/871Bs4V/IMG-20230704-WA0001.jpg" alt="IMG-20230704-WA0001" style="width:100%;height">
      <div class="text2">Caption Two</div>
      </div>
    </div>
@@ -246,7 +241,7 @@ article {
    </div>
 
 <div>
- <a href="examenevents.html" class="button1">exame market events</a>
+ <a href="examenevents.html" class="button1">exame  events</a>
  <a href="sportdag.html" class="button1">sportdag events</a>
 </div>   
    
@@ -254,10 +249,13 @@ article {
    
    
    
-   
+<section>
    <article> 
-<h1>about</h1>
-  </article>
+     <h1>about</h1>
+   </article>
+  
+  
+</section>  
    <script>
      let slideIndex = 0;
      showSlides();
