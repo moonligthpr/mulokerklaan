@@ -12,50 +12,14 @@
        text-decoration: none;
        list-style: none;
      }
-       body {font-family: Verdana, sans-serif; margin:0}
-       .mySlides {display: none}
-        img {
-         vertical-align: middle;
-        height: 800px;
-      } 
-       .slideshow-container {
-         max-width: 100%;
-         position: relative;
-         margin: auto;
-      }
-       .text1 {
-         color: #f2f2f2;
-         font-size: 15px;
-         padding: 8px 12px;
-         position: absolute;
-         bottom: 8px;
-         width: 100%;
-         text-align:right;
-         margin-bottom: 300px;
-         margin
-      }
-       
-       .dot {
-         cursor: pointer;
-         height: 15px;
-         width: 15px;
-         margin: 0 2px;
-         background-color: #bbb;
-         border-radius: 50%;
-         display: inline-block;
-         transition: background-color 0.6s ease;
-      }
-       .active, .dot:hover {
-         background-color: #717171;
-      }
-       .fade {
-         animation-name: fade;
-         animation-duration:2s;
-      }
-       @keyframes fade {
-         from {opacity: .4} 
-         to {opacity: 1}
-      }
+       body {
+       font-family: Verdana, sans-serif; margin:0;
+       background-image: url('https://i.ibb.co/Y0qcs11/Sur-20-01-09-kerklaan-01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+     }
+      
        nav{
          background: #0082e6;
          height: 80px;
@@ -184,33 +148,8 @@
   background-color: #0000ff;
   color: white;
   margin-top: 10px;
- 
-}
-article {
-  float: left;
-  padding: 15px 32px;
-  width: 100%;
-  background-color: #bbb;
-  height: 500px; 
-  text-aling: center;
-  border: 3px solid #2c3e50;
-  border-radius:20px;
-  transition: 0.6s;
-  margin-top: 40px;
-   }
-   article:hover {
-  background-color: #0000ff;
-  color: white;
-  margin-top: 20px;
-  }      
-  @keyframes anim-text {
-      0% { opacity: 0; transform: translateY(80px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
 
-    .animated-text {
-      animation: anim-text 3s alternate;
-    }
+ 
    </style>
  </head>
  <body>
@@ -223,54 +162,22 @@ article {
     </label>
     <label class="logo">design</label>
       <ul>
-        <li><a class="active" href="#">about us</a></li>
+        <li><a class="" href="#">about us</a></li>
         <li><a href="#">location</a></li>
         <li><a href="#">contacts</a></li>
+         <li><a href="#">about the school</a></li>
        </ul>
     </nav>
 </div>
 
-
-
-
-     <div class="mySlides fade">
-       <img src="https://i.ibb.co/871Bs4V/IMG-20230704-WA0001.jpg" alt="IMG-20230704-WA0001" style="width:100%;height">
-     <div class="text2">
-  <title>Animated Text</title>
-  <style>
-  
-  </style>
-</head>
-<body>
-  <h1 class="animated-text">mulo kerklaan</h1>
-</body>
-</html>
-</div>
-     </div>
-   </div>
-   <br>
-   <div style="text-align:center">
-     <span class="dot" onclick="currentSlide(1)"></span> 
-     <span class="dot" onclick="currentSlide(2)"></span>  
-   </div>
 
 <div>
  <a href="examenevents.html" class="button1">exame  events</a>
  <a href="sportdag.html" class="button1">sportdag events</a>
 </div>   
    
-   
-   
-   
-   
-<section>
-   <article> 
-     <h1>about</h1>
-   </article>
-  
-  
-</section>  
-   <script>
+ 
+ <script>
      let slideIndex = 0;
      showSlides();
 
