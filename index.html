@@ -203,7 +203,14 @@ article {
   color: white;
   margin-top: 20px;
   }      
- 
+  @keyframes anim-text {
+      0% { opacity: 0; transform: translateY(80px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .animated-text {
+      animation: anim-text 3s alternate;
+    }
    </style>
  </head>
  <body>
@@ -228,19 +235,10 @@ article {
 
      <div class="mySlides fade">
        <img src="https://i.ibb.co/871Bs4V/IMG-20230704-WA0001.jpg" alt="IMG-20230704-WA0001" style="width:100%;height">
-     <div class="text2"><!DOCTYPE html>
-<html>
-<head>
+     <div class="text2">
   <title>Animated Text</title>
   <style>
-    @keyframes anim-text {
-      0% { opacity: 0; transform: translateY(80px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-
-    .animated-text {
-      animation: anim-text 3s alternate;
-    }
+  
   </style>
 </head>
 <body>
