@@ -149,6 +149,25 @@
   color: white;
   margin-top: 10px;
 
+   <html>
+<head>
+  <title>Animated Text</title>
+  <style>
+    @keyframes anim-text {
+      0% { opacity: 0; transform: translateY(50px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .animated-text {
+      animation: anim-text 1s ease-in-out infinite alternate;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="animated-text">olla diego!</h1>
+</body>
+</html>
+
  
    </style>
  </head>
