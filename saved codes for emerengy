@@ -786,3 +786,17 @@ xxxxxxxx
    </body>
 </html>
 <a href="https://ibb.co/wSYsC9f"><img src="image destination"></a>        
+
+
+\
+
+
+
+
+
+
+xxxxxxx
+ background-image: url('https://i.ibb.co/Y0qcs11/Sur-20-01-09-kerklaan-01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
