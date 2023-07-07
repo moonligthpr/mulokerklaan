@@ -1,4 +1,121 @@
-<h2>HTML Image</h2>
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+ <style>
+ *{
+       box-sizing: border-box;
+       padding: 0;
+       margin: 0;
+       text-decoration: none;
+       list-style: none;
+     font-family: montserrat,sans-serif;
+ }
+   header {
+       background: #0082e6;
+         height: 80px;
+         width: 100%;
+         display: block;
+         text-align: center;
+         padding: 20px;
+         font-size: 15px
+  }  
+ body {
+ background: #2c3e50;
+   }
+   p {
+   color: white; 
+   font-size: 25px;
+   font-weight: bold;
+   }
+   button {
+          background-color: #2c3e50;
+          border: none;
+          border-radius: 20px;
+          color: white;
+          padding: 7.5px  15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          width: 25%;
+          
+          transition: 1s;
+          text-transform: uppercase;
+   }
+    button:hover {
+          background-color: #0000ff;
+          color: white;
+          margin-top: 10px;
+      }
+ .animated-text {
+ color: #fff;
+ position: absolute;
+ top: 50%;
+ left:75%;
+ transform: translate(-50%,-50%);
+ background: #0082e6;
+ padding: 0 40px;
+ height: 60px;
+ overflow: hidden;
+ 
+ }
+ .line{
+  text-transform: uppercase;
+  text-align: center;
+  font-size:40px;
+  line-height: 60px;
+  }
+  .line:first-child{
+   animation: anim 12s infinite
+  }
+   
+  @keyframes anim {
+   0%{
+    margin-top: 0;
+  }
+   16%{
+    margin-top: -60px;
+  }
+   33%{
+    margin-top: -120px;
+  }
+   50%{
+    margin-top: -180%;
+  }
+   66%{
+    margin-top: -120%;
+  }
+   82%{
+    margin-top: -60%;
+  }
+   100%{
+    margin-top: 0;
+  }
+ }     
+ 
+ </style>
+ <body>
+ <header>
+    <h1 style="text-align:center;">About Moonlight promotions</h1>
+   </header>  
+  
+    <a href="https://moonligthpr.github.io/mulokerklaan/index.html#">
+    <button>HOME</button>   
+     
 
-<img src="http://drive.google.com/uc?export=view&id=14rZfWJQIv7urQk-ODH7mupohXSP8c9fq">
+<div class="animated-text">
+ 
+ <div class="line">we do </div>
+  <div class="line">promotions</div>
+  <div class="line">web design</div>
+  <div class="line">html and css</div>
+  
+</div>
 
+<p><img src="http://drive.google.com/uc?export=view&id=14rZfWJQIv7urQk-ODH7mupohXSP8c9fq"></p>
+  
+ 
+</html>
